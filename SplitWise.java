@@ -9,7 +9,7 @@ public class SplitWise {
         System.out.println("------  SpliWise -----");
         System.out.println("Select Members to Split the amount");
         System.out.println("1 - Srinath \n 2 - Jagan Bhai \n 3 - Karthik ");
-        int amount ;
+        int amount = 100 ;
      
         int choice;
         choice = sc.nextInt(); 
