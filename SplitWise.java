@@ -9,13 +9,11 @@ public class SplitWise {
         System.out.println("------  SpliWise -----");
         System.out.println("Select Members to Split the amount");
         System.out.println("1 - Srinath \n 2 - Jagan Bhai \n 3 - Karthik ");
-        int amount = 100 ;
-     
-        int choice;
-        choice = sc.nextInt(); 
+        int amount = sc.nextInt() ;
+        int choice = sc.nextInt(); 
         switch (choice) {
             case 1:
-                // Contacts();
+                System.out.println("Member is added");
                 break;
         
             default:
